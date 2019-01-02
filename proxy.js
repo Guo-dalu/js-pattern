@@ -32,7 +32,7 @@ const pThrottle = (fn, limit, interval) => {
         currentTick += interval
         activeCount = 1
       }
-
+      console.log('before timeout', timeout)
       timeout = setTimeout(execute, currentTick - now)
       queue.set(timeout, reject)
     })

@@ -27,6 +27,7 @@ genernal.getColonel(c).getB(c).getC(c)......getZ(c)
 - 与其改代码，不如加代码（aop）
 - 用对象的多态性消除条件分支(strategy.js)
 
+### open-close 
 找出变化的地方，并封装变化
 - hook
 - callback

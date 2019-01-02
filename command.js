@@ -37,7 +37,7 @@ const setCommand = (btn, cb) => {
 /* 过度设计，函数可以直接传
   命令模式是 回调函数 在面向对象编程中的 替代品
 
-  需要有有一个receiver, recevier去做具体的事情，而command 提供了execute ，让recevier去执行
+  需要有一个receiver, recevier去做具体的事情，而command 提供了execute ，让recevier去执行
   可以用于redo 和 undo
 */
 
